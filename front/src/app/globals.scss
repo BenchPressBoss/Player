@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply text-white bg-dark-800 text-lg;
+}
+
+.hoverPrimary {
+	@apply hover:text-primary transition-colors duration-300;
+}
